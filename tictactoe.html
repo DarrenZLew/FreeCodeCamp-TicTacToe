@@ -1,0 +1,111 @@
+<html>
+  <head>
+  	<title>TicTacToe</title>
+  	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  	<link rel="stylesheet" type="text/css" href="tictactoe.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container text-center">
+      <div class="row">
+        <h1>Tic Tac Toe</h1>    
+      </div>
+      <div class="row">
+        <div class="col-xs-4">
+          <div class="dummy"></div>
+          <div class="flip-container btn square" name="0">
+            <div class="flipper">
+              <div class="front"></div>
+              <div class="back"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-4">
+          <div class="dummy"></div>
+          <div class="flip-container btn square" name="1">
+            <div class="flipper">
+              <div class="front"></div>
+              <div class="back"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-4">
+          <div class="dummy"></div>
+          <div class="flip-container btn square" name="2">
+            <div class="flipper">
+              <div class="front"></div>
+              <div class="back"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-4">
+          <div class="dummy"></div>
+          <div class="flip-container btn square" name="3">
+            <div class="flipper">
+              <div class="front"></div>
+              <div class="back"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-4">
+          <div class="dummy"></div>
+          <div class="flip-container btn square" name="4">
+            <div class="flipper">
+              <div class="front"></div>
+              <div class="back"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-4">
+          <div class="dummy"></div>
+          <div class="flip-container btn square" name="5">
+            <div class="flipper">
+              <div class="front"></div>
+              <div class="back"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-4">
+          <div class="dummy"></div>
+          <div class="flip-container btn square" name="6">
+            <div class="flipper">
+              <div class="front"></div>
+              <div class="back"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-4">
+          <div class="dummy"></div>
+          <div class="flip-container btn square" name="7">
+            <div class="flipper">
+              <div class="front"></div>
+              <div class="back"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-4">
+          <div class="dummy"></div>
+          <div class="flip-container btn square" name="8">
+            <div class="flipper">
+              <div class="front"></div>
+              <div class="back"></div>
+            </div>
+          </div>
+        </div>      
+      </div>
+      <form>
+       <div class="radio-group">
+        <input type="radio" id="novice" name="difficulty" value="novice" checked="checked">
+        <label for="novice">Novice</label>
+        <input type="radio" id="intermediate" name="difficulty" value="intermediate">
+        <label for="intermediate">Intermediate</label> 
+        <input type="radio" id="expert" name="difficulty" value="expert">
+        <label for="expert">Expert</label>
+       </div>
+      </form>
+      <div class ="btn btn-danger btn-lg" id="uiMessage">Start the game</div>  
+    </div>
+    <script type="text/javascript" src="tictactoe.js"></script>
+  </body>
+</html>
